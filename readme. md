@@ -1,0 +1,65 @@
+
+AI‑Geometry‑Visualizer — Interactive Geometry Rendering & AI‑Based Shape Analysis
+
+AI‑Geometry‑Visualizer is an interactive engine that renders geometric shapes, visualizes relationships, and applies lightweight AI logic to interpret angles, distances, and structural properties. It is designed for educational tools, geometry tutors, and systems that require dynamic diagram visualization.
+
+---
+
+📂 Project Structure
+`
+AI-Geometry-Visualizer/
+├── python/
+│   ├── visualizer.py           # main visualization engine
+│   ├── geometry_core.py        # points, lines, angles, polygons
+│   ├── ai_analyzer.py          # AI-based relationship detection
+│   └── demo.py                 # example usage
+│
+├── java/
+│   └── Main.java               # Java version (console or simple GUI)
+│
+└── README.md                   # documentation
+`
+
+---
+
+▶️ Running the Project
+
+Python
+1. Install Python 3.8+
+2. (Optional) install matplotlib for visualization:
+   `
+   pip install matplotlib
+   `
+3. Run the visualizer:
+   `
+   python visualizer.py
+   `
+   or run the demo:
+   `
+   python demo.py
+   `
+
+Java
+1. Save file as Main.java
+2. Compile and run:
+   `
+   javac Main.java
+   java Main
+   `
+
+---
+
+📦 Dependencies
+- Python: none  
+  - optional: matplotlib (for drawing diagrams)
+- Java: JDK only  
+
+---
+
+🧩 Extended Description
+AI‑Geometry‑Visualizer is an interactive geometry engine that renders shapes and analyzes their relationships using simple AI logic. It supports points, lines, angles, and polygons, and can detect properties such as parallelism, perpendicularity, angle equality, and segment lengths. The system is designed for educational platforms and geometry‑learning tools that require dynamic diagram visualization and automated interpretation.
+
+---
+
+📜 License
+MIT License
